@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:teedjay="http://teedjay.com/wsdl">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <teedjay:ping>
+            <PingerInput>
+                <message>This is a simple SAMPLE message</message>
+            </PingerInput>
+        </teedjay:ping>
+    </soapenv:Body>
+</soapenv:Envelope>
