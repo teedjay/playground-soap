@@ -1,9 +1,7 @@
 package com.teedjay.soap;
 
-import javax.xml.bind.annotation.XmlRootElement;
 import java.time.LocalDateTime;
 
-@XmlRootElement(name = "PingerOutput")
 public class PingerOutput {
 
     public String message;

@@ -27,14 +27,14 @@ The response should be like this :
 ```
 <?xml version="1.0" ?>
 <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
-	<S:Body>
-		<ns2:pingResponse xmlns:ns2="http://teedjay.com/wsdl">
-			<PingerOutput>
-				<message>This is a simple SAMPLE message</message>
-				<reverse>egassem ELPMAS elpmis a si sihT</reverse>
-				<timestamp>2017-12-12T14:40:07.659</timestamp>
-			</PingerOutput>
-		</ns2:pingResponse>
-	</S:Body>
+  <S:Body>
+    <ns2:pingResponse xmlns:ns2="http://teedjay.com/wsdl">
+      <PingerOutput>
+        <message>This is a simple SAMPLE message</message>
+        <reverse>egassem ELPMAS elpmis a si sihT</reverse>
+        <timestamp>2017-12-12T14:40:07.659</timestamp>
+      </PingerOutput>
+    </ns2:pingResponse>
+  </S:Body>
 </S:Envelope>
 ```
