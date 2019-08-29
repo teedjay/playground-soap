@@ -1,6 +1,7 @@
 # playground-soap
 Simple SOAP using only plain Java SE 8
 Added GitHub Action to the project for Java CI.
+Made a change to trigger new build.
 
 
 ## How to build
