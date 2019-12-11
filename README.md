@@ -7,8 +7,8 @@ Made a change to trigger new build..
 ## How to build
 You need Java 8 to build this project.
 ```
-mvn clean        <== will install the ojdbc8.jar file in your local Maven repo
-mvn package      <== will build a runnable jar file at target/fms-metrics-server.jar
+mvn clean
+mvn package      <== will build a runnable jar file at target/soap-1.0-SNAPSHOT.jar
 ```
 
 ## How to run this project
